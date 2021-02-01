@@ -1,0 +1,28 @@
+.wrapper {
+  display: inline-block;
+  width: 320px;
+}
+
+.output {
+  padding: 0.2em;
+  height: 3em;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  border: 1px solid gray;
+  font-size: 2em;
+  overflow: hidden;
+}
+
+.wrapper .button {
+  width: 6em;
+  height: 6em;
+}
+
+.wrapper .button.text-Clear {
+  width: 18em;
+}
+
+.wrapper .button.text-0 {
+  width: 12em;
+}
